@@ -30,7 +30,7 @@ This repository contains the final project for the Magshimim program, focused on
 
 To run this project, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/yardenfalik/IDS.git`
+1. Clone the repository: `git clone https://github.com/yardenfalik/IDS-Project.git`
 2. Install the required dependencies (e.g., using `pip install -r requirements.txt`).
 3. Navigate to the specific directory you want to explore (e.g., `cd attacks/` or `cd detection/`).
 4. Run the relevant scripts or code according to the provided instructions in each directory's README file.
