@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <title>{{ attack }}</title>
+</head>
+<body>
+    <br>
+    <a href="/"><img src="../static/img/logo.png" height="80px"></a>
+    <h1>{{ attack }}</h1>
+    <form method="post">
+        <input type="text" name="ip" id="ip" placeholder="IP Address">
+        <input type="submit" value="Attack!">
+    </form>
+    <div>
+        <h3>Updates:</h3>
+            {% for message in get_flashed_messages() %}
+                <p>{{ message }}</p>
+            {% endfor %}
+    </div>
+</body>
+</html>

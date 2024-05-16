@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <title>{{ attack }}</title>
+</head>
+<body>
+    <br>
+    <a href="/"><img src="../static/img/logo.png" height="80px"></a>
+    <h1>{{ attack }}</h1>
+    <form method="post">
+        <input type="text" name="iface" id="iface" placeholder="Interface">
+        <input type="text" name="gateway" id="gateway" placeholder="Fake Gateway Ip">
+        <input type="text" name="realMac" id="realMac" placeholder="Computer Mac">
+        <input type="text" name="mask" id="mask" placeholder="Subnet Mask">
+        <br>
+        <input type="text" name="dns" id="dns" placeholder="DNS Server">
+        <input type="text" name="routerIp" id="routerIp" placeholder="Real Router Ip">
+        <input type="text" name="routerMac" id="routerMac" placeholder="Real Router Mac">
+        <input type="submit" value="Attack!">
+    </form>
+    <div>
+        <h3>Updates:</h3>
+            {% for message in get_flashed_messages() %}
+                <p>{{ message }}</p>
+            {% endfor %}
+    </div>
+    <p>* My Computer Ip - 192.168.63.1</p>
+    <p>* My Computer Mac - 00:50:56:c0:00:08</p>
+    <p>* Router Mac - 00:50:56:e1:87:c2</p>
+    <p>* Router Ip - 192.168.63.254</p>
+    <p>* DNS Server - 192.168.63.2</p>
+    <p>* Subnet Mask - 192.168.63.</p>
+    <p>* VMware Virtual Ethernet Adapter for VMnet8</p>
+</body>
+</html>
