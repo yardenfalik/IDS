@@ -7,6 +7,7 @@ This repository contains the final project for the Magshimim program, focused on
 - [Features](#features)
 - [Attacks And Detections](#attacks-and-detections)
 - [Usage](#usage)
+- [Contributing](#contributing)
 - [License](#license)
 - [Disclaimer](#disclaimer)
 
@@ -36,6 +37,10 @@ To run this project, follow these steps:
 4. Run the relevant scripts or code according to the provided instructions in each directory's README file.
 
 Note: Please be aware that the code in this repository is intended for educational and research purposes only. Any unethical or illegal use of this code is strictly prohibited, and the user is solely responsible for their actions.
+
+## Contributing
+
+Contributions are welcome! Feel free to submit issues or pull requests.
 
 ## License
 
