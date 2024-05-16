@@ -5,6 +5,7 @@ This repository contains the final project for the Magshimim program, focused on
 ## Table of Contents
 
 - [Features](#features)
+- [Attacks And Detections](#attacks-and-detections)
 - [Usage](#usage)
 - [License](#license)
 - [Disclaimer](#disclaimer)
@@ -14,6 +15,16 @@ This repository contains the final project for the Magshimim program, focused on
 - [x] 8 attacks and detections.
 - [x] UI for some of the attacks and detections.
 - [x] Machine learning detection for some of the attacks.
+
+## Attacks And Detections
+- ARP Spoofing
+- DHCP Spoofing
+- DHCP Starvation
+- HTTP Flood
+- Ping Flood
+- Port Scan
+- SlowLoris
+- TCP SYN Flood
 
 ## Usage
 
