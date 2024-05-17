@@ -7,6 +7,7 @@ This repository contains the final project for the Magshimim program, focused on
 - [Features](#features)
 - [Attacks And Detections](#attacks-and-detections)
 - [Usage](#usage)
+- [Contributing](#contributing)
 - [License](#license)
 - [Disclaimer](#disclaimer)
 
@@ -30,12 +31,16 @@ This repository contains the final project for the Magshimim program, focused on
 
 To run this project, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/yardenfalik/IDS.git`
+1. Clone the repository: `git clone https://github.com/yardenfalik/IDS-Project.git`
 2. Install the required dependencies (e.g., using `pip install -r requirements.txt`).
 3. Navigate to the specific directory you want to explore (e.g., `cd attacks/` or `cd detection/`).
 4. Run the relevant scripts or code according to the provided instructions in each directory's README file.
 
 Note: Please be aware that the code in this repository is intended for educational and research purposes only. Any unethical or illegal use of this code is strictly prohibited, and the user is solely responsible for their actions.
+
+## Contributing
+
+Contributions are welcome! Feel free to submit issues or pull requests.
 
 ## License
 
